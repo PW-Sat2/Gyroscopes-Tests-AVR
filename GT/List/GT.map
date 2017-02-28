@@ -1,0 +1,954 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+                              (vfprintf)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+                              GT/Obj/libs^SD^ff.o (__udivmodsi4)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o (exit)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                              GT/Obj/main.o (__do_copy_data)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                              GT/Obj/main.o (__do_clear_bss)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                              GT/Obj/main.o (__umulhisi3)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+                              GT/Obj/libs^SD^ff.o (__muluhisi3)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                              GT/Obj/main.o (__subsf3)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o) (__addsf3x)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                              GT/Obj/main.o (__divsf3)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3.o) (__divsf3x)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              GT/Obj/main.o (__floatunsisf)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_inf)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_nan)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscA)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscB)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o) (__fp_round)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_split3)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_zero)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                              GT/Obj/main.o (__mulsf3)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__mulsf3x)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+                              GT/Obj/main.o (malloc)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o) (__ftoa_engine)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o) (strnlen_P)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o) (strnlen)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o) (fputc)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+                              GT/Obj/main.o (__iob)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(printf.o)
+                              GT/Obj/main.o (printf)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(puts.o)
+                              GT/Obj/main.o (puts)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(snprintf.o)
+                              GT/Obj/main.o (snprintf)
+c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+__flp               0x2               c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+__iob               0x6               c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .group         0x00000000        0x8 GT/Obj/main.o
+ .text          0x00000000        0x0 GT/Obj/main.o
+ .data          0x00000000        0x0 GT/Obj/main.o
+ .text._Z15pcb_temperaturej
+                0x00000000       0x3c GT/Obj/main.o
+ .text          0x00000000        0x0 GT/Obj/libs^SD^ff.o
+ .data          0x00000000        0x0 GT/Obj/libs^SD^ff.o
+ .text._ZL12get_fileinfoP3DIRP7FILINFO
+                0x00000000       0xe4 GT/Obj/libs^SD^ff.o
+ .text._ZL10dir_removeP3DIR
+                0x00000000       0x42 GT/Obj/libs^SD^ff.o
+ .text._Z10clust2sectP5FATFSm
+                0x00000000       0x64 GT/Obj/libs^SD^ff.o
+ .text._Z7get_fatP5FATFSm
+                0x00000000       0x38 GT/Obj/libs^SD^ff.o
+ .text._Z7put_fatP5FATFSmm
+                0x00000000       0x4e GT/Obj/libs^SD^ff.o
+ .text.f_read   0x00000000      0x3e8 GT/Obj/libs^SD^ff.o
+ .text.f_opendir
+                0x00000000      0x112 GT/Obj/libs^SD^ff.o
+ .text.f_readdir
+                0x00000000       0xb0 GT/Obj/libs^SD^ff.o
+ .text.f_stat   0x00000000       0x86 GT/Obj/libs^SD^ff.o
+ .text.f_getfree
+                0x00000000      0x242 GT/Obj/libs^SD^ff.o
+ .text.f_truncate
+                0x00000000      0x1ae GT/Obj/libs^SD^ff.o
+ .text.f_unlink
+                0x00000000      0x166 GT/Obj/libs^SD^ff.o
+ .text.f_mkdir  0x00000000      0x300 GT/Obj/libs^SD^ff.o
+ .text.f_chmod  0x00000000       0x8e GT/Obj/libs^SD^ff.o
+ .text.f_utime  0x00000000       0x96 GT/Obj/libs^SD^ff.o
+ .text.f_rename
+                0x00000000      0x270 GT/Obj/libs^SD^ff.o
+ .text.f_setlabel
+                0x00000000      0x246 GT/Obj/libs^SD^ff.o
+ .text          0x00000000        0x0 GT/Obj/libs^SD^sdmm.o
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(printf.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(printf.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(printf.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(puts.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(puts.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(puts.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(snprintf.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(snprintf.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(snprintf.o)
+ .text          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a
+LOAD GT/Obj/main.o
+LOAD GT/Obj/libs^SD^ff.o
+LOAD GT/Obj/libs^SD^sdmm.o
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+START GROUP
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a
+LOAD c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libatmega1284p.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x7558
+ *(.vectors)
+ .vectors       0x00000000       0x8c c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data  0x0000008c        0x8 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+ .progmem.data  0x00000094       0xfa c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+                0x0000018e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000018e                __ctors_start = .
+ *(.ctors)
+                0x0000018e                __ctors_end = .
+                0x0000018e                __dtors_start = .
+ *(.dtors)
+                0x0000018e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000018e        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+                0x0000018e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000018e        0xc c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000019a       0x1a c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                0x0000019a                __do_copy_data
+ .init4         0x000001b4       0x10 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                0x000001b4                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000001c4        0x8 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+ *(.init9)
+ *(.text)
+ .text          0x000001cc        0x4 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+                0x000001cc                __vector_22
+                0x000001cc                __vector_28
+                0x000001cc                __vector_1
+                0x000001cc                __vector_32
+                0x000001cc                __vector_34
+                0x000001cc                __vector_24
+                0x000001cc                __vector_12
+                0x000001cc                __bad_interrupt
+                0x000001cc                __vector_6
+                0x000001cc                __vector_31
+                0x000001cc                __vector_3
+                0x000001cc                __vector_23
+                0x000001cc                __vector_30
+                0x000001cc                __vector_25
+                0x000001cc                __vector_11
+                0x000001cc                __vector_13
+                0x000001cc                __vector_17
+                0x000001cc                __vector_19
+                0x000001cc                __vector_7
+                0x000001cc                __vector_27
+                0x000001cc                __vector_5
+                0x000001cc                __vector_33
+                0x000001cc                __vector_4
+                0x000001cc                __vector_9
+                0x000001cc                __vector_2
+                0x000001cc                __vector_21
+                0x000001cc                __vector_15
+                0x000001cc                __vector_29
+                0x000001cc                __vector_8
+                0x000001cc                __vector_26
+                0x000001cc                __vector_14
+                0x000001cc                __vector_10
+                0x000001cc                __vector_16
+                0x000001cc                __vector_18
+                0x000001cc                __vector_20
+                0x000001d0                . = ALIGN (0x2)
+ *(.text.*)
+ .text.avr-libc
+                0x000001d0      0x74a c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+                0x000001d0                vfprintf
+ .text._ZN3hal12uart_putcharILi0EEEicP6__file
+                0x0000091a       0x12 GT/Obj/main.o
+                0x0000091a                _ZN3hal12uart_putcharILi0EEEicP6__file
+ .text._ZN3hal12uart_getcharILi0EEEiP6__file
+                0x0000092c       0x10 GT/Obj/main.o
+                0x0000092c                _ZN3hal12uart_getcharILi0EEEiP6__file
+ .text._ZN3hal3TWI5startEhNS_3I2C11StartActionE
+                0x0000093c       0x6e GT/Obj/main.o
+                0x0000093c                _ZN3hal3TWI5startEhNS_3I2C11StartActionE
+ .text.get_fattime
+                0x000009aa      0x2a8 GT/Obj/main.o
+                0x000009aa                get_fattime
+ .text._ZN3hal7SoftI2CILi13ELi14EE4initEv
+                0x00000c52        0xe GT/Obj/main.o
+                0x00000c52                _ZN3hal7SoftI2CILi13ELi14EE4initEv
+ .text._ZNK3hal8A3G4250DINS_7SoftI2CILi13ELi14EEEE23set_data_rate_bandwidthENS3_14DataRateCutOffE
+                0x00000c60      0x318 GT/Obj/main.o
+                0x00000c60                _ZNK3hal8A3G4250DINS_7SoftI2CILi13ELi14EEEE23set_data_rate_bandwidthENS3_14DataRateCutOffE
+ .text._ZNK3hal8A3G4250DINS_7SoftI2CILi13ELi14EEEE16data_output_pathENS3_14DataOutputPathE
+                0x00000f78      0x32c GT/Obj/main.o
+                0x00000f78                _ZNK3hal8A3G4250DINS_7SoftI2CILi13ELi14EEEE16data_output_pathENS3_14DataOutputPathE
+ .text._ZNK3hal7ITG3200INS_7SoftI2CILi15ELi16EEEE19set_interrupt_flagsENS3_9LatchModeENS3_16LatchClearMethodENS3_16InterruptControlES6_
+                0x000012a4      0x39e GT/Obj/main.o
+                0x000012a4                _ZNK3hal7ITG3200INS_7SoftI2CILi15ELi16EEEE19set_interrupt_flagsENS3_9LatchModeENS3_16LatchClearMethodENS3_16InterruptControlES6_
+ .text._ZNK3hal7ITG3200INS_7SoftI2CILi15ELi16EEEE9set_clockENS3_11ClockSourceE
+                0x00001642      0x35e GT/Obj/main.o
+                0x00001642                _ZNK3hal7ITG3200INS_7SoftI2CILi15ELi16EEEE9set_clockENS3_11ClockSourceE
+ .text._ZNK3hal10I2C_DeviceINS_7SoftI2CILi13ELi14EEEE13read_registerIRNS_4libs5arrayIhLj1EEEEEvhOT_
+                0x000019a0      0x1c6 GT/Obj/main.o
+                0x000019a0                _ZNK3hal10I2C_DeviceINS_7SoftI2CILi13ELi14EEEE13read_registerIRNS_4libs5arrayIhLj1EEEEEvhOT_
+ .text._ZNK3hal10I2C_DeviceINS_7SoftI2CILi13ELi14EEEE14write_registerIRNS_4libs5arrayIhLj1EEEEEvhOT_
+                0x00001b66      0x148 GT/Obj/main.o
+                0x00001b66                _ZNK3hal10I2C_DeviceINS_7SoftI2CILi13ELi14EEEE14write_registerIRNS_4libs5arrayIhLj1EEEEEvhOT_
+ .text._ZNK3hal10I2C_DeviceINS_7SoftI2CILi15ELi16EEEE14write_registerIRNS_4libs5arrayIhLj1EEEEEvhOT_
+                0x00001cae      0x16c GT/Obj/main.o
+                0x00001cae                _ZNK3hal10I2C_DeviceINS_7SoftI2CILi15ELi16EEEE14write_registerIRNS_4libs5arrayIhLj1EEEEEvhOT_
+ .text._ZNK3hal10I2C_DeviceINS_7SoftI2CILi15ELi16EEEE14write_registerIRNS_4libs5arrayIhLj2EEEEEvhOT_
+                0x00001e1a      0x17a GT/Obj/main.o
+                0x00001e1a                _ZNK3hal10I2C_DeviceINS_7SoftI2CILi15ELi16EEEE14write_registerIRNS_4libs5arrayIhLj2EEEEEvhOT_
+ .text._ZNK3hal10I2C_DeviceINS_3TWIEE14write_registerIRNS_4libs5arrayIKhLj2EEEEEvhOT_
+                0x00001f94       0xcc GT/Obj/main.o
+                0x00001f94                _ZNK3hal10I2C_DeviceINS_3TWIEE14write_registerIRNS_4libs5arrayIKhLj2EEEEEvhOT_
+ .text._ZNK3hal10I2C_DeviceINS_3TWIEE14write_registerIRNS_4libs5arrayIKhLj1EEEEEvhOT_
+                0x00002060       0xa8 GT/Obj/main.o
+                0x00002060                _ZNK3hal10I2C_DeviceINS_3TWIEE14write_registerIRNS_4libs5arrayIKhLj1EEEEEvhOT_
+ .text._ZN3hal7SoftI2CILi13ELi14EE5writeEh
+                0x00002108       0x6c GT/Obj/main.o
+                0x00002108                _ZN3hal7SoftI2CILi13ELi14EE5writeEh
+ .text._ZN3hal7SoftI2CILi15ELi16EE5writeEh
+                0x00002174       0x78 GT/Obj/main.o
+                0x00002174                _ZN3hal7SoftI2CILi15ELi16EE5writeEh
+ .text.startup.main
+                0x000021ec     0x195a GT/Obj/main.o
+                0x000021ec                main
+ .text._ZL8validatePv
+                0x00003b46       0x44 GT/Obj/libs^SD^ff.o
+ .text._ZL8check_fsP5FATFSm
+                0x00003b8a       0x78 GT/Obj/libs^SD^ff.o
+ .text._ZL11chk_mountedPPKcPP5FATFSh
+                0x00003c02      0x61a GT/Obj/libs^SD^ff.o
+ .text._ZL11sync_windowP5FATFS.part.3
+                0x0000421c       0xc6 GT/Obj/libs^SD^ff.o
+ .text._ZL7sync_fsP5FATFS
+                0x000042e2       0xd6 GT/Obj/libs^SD^ff.o
+ .text._ZL11move_windowP5FATFSm
+                0x000043b8       0x92 GT/Obj/libs^SD^ff.o
+ .text._Z7get_fatP5FATFSm.part.5
+                0x0000444a      0x170 GT/Obj/libs^SD^ff.o
+ .text._ZL7dir_sdiP3DIRt
+                0x000045ba      0x1fe GT/Obj/libs^SD^ff.o
+ .text._Z7put_fatP5FATFSmm.part.7
+                0x000047b8      0x20e GT/Obj/libs^SD^ff.o
+ .text._ZL12create_chainP5FATFSm
+                0x000049c6      0x20a GT/Obj/libs^SD^ff.o
+ .text._ZL8dir_nextP3DIRi
+                0x00004bd0      0x30c GT/Obj/libs^SD^ff.o
+ .text._ZL11follow_pathP3DIRPKc
+                0x00004edc      0x2b8 GT/Obj/libs^SD^ff.o
+ .text._ZL8dir_readP3DIRi
+                0x00005194       0x94 GT/Obj/libs^SD^ff.o
+ .text._ZL12remove_chainP5FATFSm.part.10
+                0x00005228       0xf0 GT/Obj/libs^SD^ff.o
+ .text._ZL9dir_allocP3DIRj.part.8.constprop.12
+                0x00005318       0x42 GT/Obj/libs^SD^ff.o
+ .text._ZL12dir_registerP3DIR
+                0x0000535a       0x80 GT/Obj/libs^SD^ff.o
+ .text.f_mount  0x000053da       0x30 GT/Obj/libs^SD^ff.o
+                0x000053da                f_mount
+ .text.f_open   0x0000540a      0x2bc GT/Obj/libs^SD^ff.o
+                0x0000540a                f_open
+ .text.f_write  0x000056c6      0x516 GT/Obj/libs^SD^ff.o
+                0x000056c6                f_write
+ .text.f_sync   0x00005bdc       0xd0 GT/Obj/libs^SD^ff.o
+                0x00005bdc                f_sync
+ .text.f_close  0x00005cac       0x18 GT/Obj/libs^SD^ff.o
+                0x00005cac                f_close
+ .text.f_lseek  0x00005cc4      0x47c GT/Obj/libs^SD^ff.o
+                0x00005cc4                f_lseek
+ .text.f_getlabel
+                0x00006140      0x11c GT/Obj/libs^SD^ff.o
+                0x00006140                f_getlabel
+ .text._ZL10wait_readyv
+                0x0000625c       0x40 GT/Obj/libs^SD^sdmm.o
+ .text._ZL14rcvr_datablockPhj
+                0x0000629c       0xb6 GT/Obj/libs^SD^sdmm.o
+ .text._ZL6selectv
+                0x00006352       0x40 GT/Obj/libs^SD^sdmm.o
+ .text._ZL8send_cmdhm
+                0x00006392      0x102 GT/Obj/libs^SD^sdmm.o
+ .text._ZL14xmit_datablockPKhh
+                0x00006494       0xd4 GT/Obj/libs^SD^sdmm.o
+ .text.disk_status
+                0x00006568        0xe GT/Obj/libs^SD^sdmm.o
+                0x00006568                disk_status
+ .text.disk_initialize
+                0x00006576      0x1d6 GT/Obj/libs^SD^sdmm.o
+                0x00006576                disk_initialize
+ .text.disk_read
+                0x0000674c       0xf0 GT/Obj/libs^SD^sdmm.o
+                0x0000674c                disk_read
+ .text.disk_write
+                0x0000683c       0xf0 GT/Obj/libs^SD^sdmm.o
+                0x0000683c                disk_write
+ .text.disk_ioctl
+                0x0000692c      0x198 GT/Obj/libs^SD^sdmm.o
+                0x0000692c                disk_ioctl
+ .text.libgcc.div
+                0x00006ac4       0x44 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+                0x00006ac4                __udivmodsi4
+ .text.libgcc.mul
+                0x00006b08       0x1e c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                0x00006b08                __umulhisi3
+ .text.libgcc.mul
+                0x00006b26       0x16 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muluhisi3.o)
+                0x00006b26                __muluhisi3
+ .text.avr-libc.fplib
+                0x00006b3c        0xe c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                0x00006b3c                __subsf3
+                0x00006b3e                __addsf3
+ .text.avr-libc.fplib
+                0x00006b4a       0xcc c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                0x00006b6c                __addsf3x
+ .text.avr-libc.fplib
+                0x00006c16        0x8 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                0x00006c16                __divsf3
+ .text.avr-libc.fplib
+                0x00006c1e       0xdc c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                0x00006c3e                __divsf3x
+                0x00006c44                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00006cfa       0x7a c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x00006cfa                __floatunsisf
+                0x00006cfe                __floatsisf
+ .text.avr-libc.fplib
+                0x00006d74        0xc c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x00006d74                __fp_inf
+ .text.avr-libc.fplib
+                0x00006d80        0x6 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x00006d80                __fp_nan
+ .text.avr-libc.fplib
+                0x00006d86        0xe c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x00006d86                __fp_pscA
+ .text.avr-libc.fplib
+                0x00006d94        0xe c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x00006d94                __fp_pscB
+ .text.avr-libc.fplib
+                0x00006da2       0x22 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00006da2                __fp_round
+ .text.avr-libc.fplib
+                0x00006dc4       0x44 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x00006dc4                __fp_split3
+                0x00006dd4                __fp_splitA
+ .text.avr-libc.fplib
+                0x00006e08        0xe c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x00006e08                __fp_zero
+                0x00006e0a                __fp_szero
+ .text.avr-libc.fplib
+                0x00006e16        0x8 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                0x00006e16                __mulsf3
+ .text.avr-libc.fplib
+                0x00006e1e       0xd2 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                0x00006e3c                __mulsf3x
+                0x00006e42                __mulsf3_pse
+ .text.avr-libc
+                0x00006ef0      0x25a c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00006ef0                malloc
+                0x0000701a                free
+ .text.avr-libc
+                0x0000714a      0x1b0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+                0x0000714a                __ftoa_engine
+ .text.avr-libc
+                0x000072fa       0x16 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x000072fa                strnlen_P
+ .text.avr-libc
+                0x00007310       0x16 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x00007310                strnlen
+ .text.avr-libc
+                0x00007326       0x70 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x00007326                fputc
+ .text.avr-libc
+                0x00007396       0x28 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(printf.o)
+                0x00007396                printf
+ .text.avr-libc
+                0x000073be       0x60 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(puts.o)
+                0x000073be                puts
+ .text.avr-libc
+                0x0000741e       0x7a c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(snprintf.o)
+                0x0000741e                snprintf
+ .text.avr-libc
+                0x00007498       0xbc c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00007498                __ultoa_invert
+                0x00007554                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00007554        0x0 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x00007554                _exit
+                0x00007554                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00007554        0x4 c:/toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00007558                _etext = .
+
+.data           0x00800100      0x1ba load address 0x00007558
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x1 GT/Obj/libs^SD^sdmm.o
+ .data          0x00800101        0x6 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800101                __malloc_heap_end
+                0x00800103                __malloc_heap_start
+                0x00800105                __malloc_margin
+ *(.data*)
+ *(.rodata)
+ .rodata        0x00800107        0x6 GT/Obj/main.o
+ .rodata        0x0080010d       0x80 GT/Obj/libs^SD^ff.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x0080018d      0x10d GT/Obj/main.o
+                                0x10e (size before relaxing)
+ .rodata.str1.1
+                0x0080029a       0x1f GT/Obj/libs^SD^ff.o
+ *(.gnu.linkonce.d*)
+                0x008002ba                . = ALIGN (0x2)
+ *fill*         0x008002b9        0x1 
+                0x008002ba                _edata = .
+                0x008002ba                PROVIDE (__data_end, .)
+
+.bss            0x008002ba      0x251
+                0x008002ba                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008002ba      0x234 GT/Obj/main.o
+                0x008002ba                fp
+                0x008002bc                FatFs
+ .bss           0x008004ee        0x4 GT/Obj/libs^SD^ff.o
+ .bss           0x008004f2        0x1 GT/Obj/libs^SD^sdmm.o
+ *(.bss*)
+ .bss._ZZNK3hal6SerialILi0EE4initEmNS_5STDIOEE11uart_output
+                0x008004f3        0xe GT/Obj/main.o
+                0x008004f3                _ZZNK3hal6SerialILi0EE4initEmNS_5STDIOEE11uart_output
+ *(COMMON)
+ COMMON         0x00800501        0x4 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800501                __brkval
+                0x00800503                __flp
+ COMMON         0x00800505        0x6 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x00800505                __iob
+                0x0080050b                PROVIDE (__bss_end, .)
+                0x00007558                __data_load_start = LOADADDR (.data)
+                0x00007712                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080050b        0x0
+                0x0080050b                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080050b                PROVIDE (__noinit_end, .)
+                0x0080050b                _end = .
+                0x0080050b                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x5c
+ *(.comment)
+ .comment       0x00000000       0x2c c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+                                 0x2d (size before relaxing)
+ .comment       0x0000002c       0x30 GT/Obj/main.o
+                                 0x31 (size before relaxing)
+ .comment       0x0000005c       0x31 GT/Obj/libs^SD^ff.o
+ .comment       0x0000005c       0x31 GT/Obj/libs^SD^sdmm.o
+ .comment       0x0000005c       0x31 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .comment       0x0000005c       0x31 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .comment       0x0000005c       0x31 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .comment       0x0000005c       0x31 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(printf.o)
+ .comment       0x0000005c       0x31 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(puts.o)
+ .comment       0x0000005c       0x31 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(snprintf.o)
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 c:/toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51/crtatmega1284p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x270
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xb0 GT/Obj/main.o
+ .debug_aranges
+                0x000000b0      0x158 GT/Obj/libs^SD^ff.o
+ .debug_aranges
+                0x00000208       0x68 GT/Obj/libs^SD^sdmm.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x2e6ed
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000    0x282e9 GT/Obj/main.o
+ .debug_info    0x000282e9     0x3ccf GT/Obj/libs^SD^ff.o
+ .debug_info    0x0002bfb8     0x2735 GT/Obj/libs^SD^sdmm.o
+
+.debug_abbrev   0x00000000     0x115b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x830 GT/Obj/main.o
+ .debug_abbrev  0x00000830      0x371 GT/Obj/libs^SD^ff.o
+ .debug_abbrev  0x00000ba1      0x5ba GT/Obj/libs^SD^sdmm.o
+
+.debug_line     0x00000000     0x406f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000     0x2bf5 GT/Obj/main.o
+ .debug_line    0x00002bf5      0xcc9 GT/Obj/libs^SD^ff.o
+ .debug_line    0x000038be      0x7b1 GT/Obj/libs^SD^sdmm.o
+
+.debug_frame    0x00000000      0xd3c
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1bc GT/Obj/main.o
+ .debug_frame   0x000001bc      0x9e4 GT/Obj/libs^SD^ff.o
+ .debug_frame   0x00000ba0      0x19c GT/Obj/libs^SD^sdmm.o
+
+.debug_str      0x00000000     0x5306
+ *(.debug_str)
+ .debug_str     0x00000000     0x49f5 GT/Obj/main.o
+                               0x4bfe (size before relaxing)
+ .debug_str     0x000049f5      0x31a GT/Obj/libs^SD^ff.o
+                                0x6ed (size before relaxing)
+ .debug_str     0x00004d0f      0x5f7 GT/Obj/libs^SD^sdmm.o
+                                0xd1e (size before relaxing)
+
+.debug_loc      0x00000000    0x24620
+ *(.debug_loc)
+ .debug_loc     0x00000000    0x1b02b GT/Obj/main.o
+ .debug_loc     0x0001b02b     0x7be8 GT/Obj/libs^SD^ff.o
+ .debug_loc     0x00022c13     0x1a0d GT/Obj/libs^SD^sdmm.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000     0x2398
+ *(.debug_ranges)
+ .debug_ranges  0x00000000     0x1a48 GT/Obj/main.o
+ .debug_ranges  0x00001a48      0x830 GT/Obj/libs^SD^ff.o
+ .debug_ranges  0x00002278      0x120 GT/Obj/libs^SD^sdmm.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(GT/Exe/GT.elf elf32-avr)
+LOAD linker stubs

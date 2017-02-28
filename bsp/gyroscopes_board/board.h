@@ -9,10 +9,13 @@ namespace bsp {
 namespace pins {
 static constexpr DigitalIO::Pin LED_1 = 11;
 static constexpr DigitalIO::Pin LED_2 = 12;
+static constexpr DigitalIO::Pin LCL = 34;
+
 }  // namespace pins
 
 constexpr static hal::LED led1(pins::LED_1);
 constexpr static hal::LED led2(pins::LED_2);
+constexpr static hal::DigitalIO lcl(pins::LCL);
 }  // namespace bsp
 }  // namespace hal
 
