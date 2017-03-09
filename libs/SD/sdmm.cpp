@@ -192,6 +192,7 @@ int select (void)	/* 1:OK, 0:Timeout */
 	BYTE d;
 
 	CS_L();
+	_delay_ms(1);
 	rcvr_mmc(&d, 1);	/* Dummy clock (force DO enabled) */
 
 	if (wait_ready()) return 1;	/* OK */
