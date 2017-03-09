@@ -10,6 +10,7 @@
 #include "A3G4250D.h"
 #include "Analog.h"
 #include "Watchdog.h"
+#include "mcu.h"
 
 #include <string.h>
 #include <stdlib.h>
@@ -20,11 +21,19 @@
 
 using namespace GyroAppBackend;
 
+ISR(TIMER1_OVF_vect) {
+    GyroAppBackend::flag_aquire = true;
+}
+
 int main() {
+    Reset::Status rstat = Reset::read_flag();
+
     Watchdog::enable(Watchdog::Period::p_8000ms);
     Watchdog::kick();
     
     Serial0.init(19200, STDIO::ENABLE);
+    printf("System after reboot\r\n");
+    printf("Reboot source: %u\r\n", rstat);
 
     TWI::init<100000>();
     TWI::enable_internal_pullups();
@@ -33,7 +42,7 @@ int main() {
     SoftI2C_2::init();
 
     Watchdog::kick();
-    GyroAppBackend::RTC::init();
+    GyroAppBackend::RTC::init({9, 4, 3, 2017}, {20, 43, 00});
     GyroAppBackend::LEDs::init();
     
     Watchdog::kick();
@@ -55,7 +64,7 @@ int main() {
     while (true) {        
         if (GyroAppBackend::flag_aquire) {
             Watchdog::kick();
-            
+
             GyroAppBackend::flag_aquire = false;
 
             GyroAppBackend::RTC::get_time();

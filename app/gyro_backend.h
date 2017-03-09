@@ -14,11 +14,11 @@ constexpr PCF8563_t rtc;
 PCF8563_t::Date date;
 PCF8563_t::Time time;
 
-void init() {
+void init(PCF8563_t::Date date, PCF8563_t::Time time) {
     if (PCF8563_t::ClockStatus::STOPPED == rtc.getClockStatus()) {
         printf("RTC is not working, setting time!\r\n");
         rtc.clear_status();
-        rtc.set_date_time({28, 2, 2, 2017}, {16, 45, 00});
+        rtc.set_date_time(date, time);
     } else {
         printf("RTC is working!\r\n");
     }
