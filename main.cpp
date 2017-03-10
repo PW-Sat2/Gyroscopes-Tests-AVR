@@ -31,7 +31,7 @@ int main() {
     Watchdog::enable(Watchdog::Period::p_8000ms);
     Watchdog::kick();
     
-    Serial0.init(19200, STDIO::ENABLE);
+    Serial0.init(38400, STDIO::ENABLE);
     printf("System after reboot\r\n");
     printf("Reboot source: %u\r\n", rstat);
 
@@ -40,6 +40,8 @@ int main() {
 
     SoftI2C_1::init();
     SoftI2C_2::init();
+
+    PCB_Temperature::init();
 
     Watchdog::kick();
     GyroAppBackend::RTC::init({9, 4, 3, 2017}, {20, 43, 00});
@@ -52,20 +54,23 @@ int main() {
     GyroAppBackend::SD::init();
 
     Watchdog::kick();
-    GyroAppBackend::SD::open();
-
-    Watchdog::kick();
     GyroAppBackend::Gyroscopes::configure();
     
     Timer1::init(Timer1::Prescaler::DIV_8, Timer1::Mode::Normal);
     Timer1::enable_overflow_interrupt();
     sei();
 
-    while (true) {        
+    while (true) {
         if (GyroAppBackend::flag_aquire) {
+            GyroAppBackend::flag_aquire = false;
             Watchdog::kick();
 
-            GyroAppBackend::flag_aquire = false;
+            if (0 == (GyroAppBackend::Gyroscopes::count_data % 100)) {
+                GyroAppBackend::SD::close();
+                GyroAppBackend::SD::open();
+                Watchdog::kick();
+            }
+
 
             GyroAppBackend::RTC::get_time();
 

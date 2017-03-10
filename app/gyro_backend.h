@@ -31,6 +31,8 @@ void get_time() {
         //    date.day, date.month, date.year, date.weekday);
     } else {
         printf("RTC not working!\r\n");
+        date = {99, 99, 99, 99};
+        time = {99, 99, 99};
     }
 
     rtc.set_square_output(PCF8563_t::SquareOutput::SQW_1HZ);
@@ -44,6 +46,9 @@ UINT bw;
 constexpr uint16_t buff_len = 512;
 char buffer[buff_len];
 
+uint16_t save_fails = 0;
+uint16_t chunk_file_number = 0;
+
 void init() {
     lcl.init(DigitalIO::Mode::OUTPUT);
     lcl.reset();
@@ -56,8 +61,25 @@ void init() {
 }
 
 void open() {
+    RTC::PCF8563_t::Date date;
+    RTC::PCF8563_t::Time time;
+    char filename[50];
+
+    chunk_file_number++;
+
+    if (RTC::PCF8563_t::ClockStatus::RUNNING == RTC::rtc.get_date_time(date, time)) {
+        snprintf(filename, 50, "gyro-%02u-%02u-%u-%02u-%02u-%02u-%u.txt", date.day, date.month, date.year, time.hours, time.minutes, time.seconds, chunk_file_number);
+    } else {
+        InternalADC::select_channel(InternalADC::Input::ADC5);
+        srand(InternalADC::read());
+        InternalADC::select_channel(InternalADC::Input::ADC4);
+        snprintf(filename, 50, "gyro-rand-%u-%u.txt", rand(), chunk_file_number);
+    }
+
+    printf("Filename: %s\r\n", filename);
+
     printf("Check for card\r\n");
-    if (f_open(fp, "gyro.txt", FA_WRITE | FA_OPEN_ALWAYS) == FR_OK) {
+    if (f_open(fp, reinterpret_cast<const TCHAR*>(filename), FA_WRITE | FA_OPEN_ALWAYS) == FR_OK) {
         printf("Card OK!\r\n");
         led2.on();
         _delay_ms(100);
@@ -66,20 +88,38 @@ void open() {
     }
 }
 
+void close() {
+    f_close(fp);
+}
+
 void save_on_card() {
     if (f_lseek(fp, f_size(fp)) == FR_OK) {
         f_write(fp, buffer, strlen(buffer), &bw);
 
         printf("Written ");
+
         if (bw == strlen(buffer)) {
             printf("entire");
             led2.on();
         } else {
             led2.off();
+            save_fails++;
         }
         printf("\r\n");
 
         f_sync(fp); // sync the file
+    } else {
+        led2.off();
+        save_fails++;
+    }
+
+    // if there are problems with SD card wait for 20 until WDT reset
+    if (save_fails > 100) {
+        save_fails = 0;
+        printf("Problem with SD, wait for reset...\r\n");
+        for (uint16_t i = 0; i < 20; i++) {
+            _delay_ms(1000);
+        }
     }
 }
 }  // namespace SD
@@ -109,7 +149,7 @@ ITG3200_t::GyroData ITG3200_data_0;
 ITG3200_t::GyroData ITG3200_data_1;
 A3G4250D_t::GyroData A3G4250D_data_0;
 A3G4250D_t::GyroData A3G4250D_data_1;
-uint16_t count_data = 0;
+uint32_t count_data = 0;
 
 void configure() {
     A3G4250D_0.set_data_rate_bandwidth(A3G4250D_t::DataRateCutOff::DR_00_BW_00_100_Hz_CF_12_5);
@@ -158,7 +198,7 @@ float measure() {
 
 void format_data() {
     snprintf(SD::buffer, SD::buff_len,
-        "%02u;%02u;%02u;%02u;%02u;%02u;%u;%.2f;%u,%.2f;%d;%d;%d;%u,%.2f;%d;%d;%d;%u,%d;%d;%d;%d;%u,%d;%d;%d;%d;\r\n",
+        "%02u;%02u;%02u;%02u;%02u;%02u;%lu;%.2f;%u,%.2f;%d;%d;%d;%u,%.2f;%d;%d;%d;%u,%d;%d;%d;%d;%u,%d;%d;%d;%d;\r\n",
         RTC::date.day, RTC::date.month, RTC::date.year,
         RTC::time.hours, RTC::time.minutes, RTC::time.seconds, // time
         Gyroscopes::count_data++,

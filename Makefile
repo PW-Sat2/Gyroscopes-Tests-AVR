@@ -7,6 +7,7 @@ INCLUDES = \
 SRCS = \
   main.cpp \
   libs/SD/ff.cpp \
+  libs/SD/ccsbcs.cpp \
   libs/SD/sdmm.cpp
 
 include $(HAL_PATH)/build.make
