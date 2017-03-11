@@ -1,7 +1,7 @@
 #ifndef APP_GYRO_BACKEND_H_
 #define APP_GYRO_BACKEND_H_
 
-namespace GyroAppBackend {
+namespace AppBackend {
 volatile bool flag_aquire = false;
 
 using namespace hal;
@@ -16,11 +16,11 @@ PCF8563_t::Time time;
 
 void init(PCF8563_t::Date date, PCF8563_t::Time time) {
     if (PCF8563_t::ClockStatus::STOPPED == rtc.getClockStatus()) {
-        printf("RTC is not working, setting time!\r\n");
+        printf("DB:\tRTC set time\r\n");
         rtc.clear_status();
         rtc.set_date_time(date, time);
     } else {
-        printf("RTC is working!\r\n");
+        printf("DB:\tRTC working\r\n");
     }
 }
 
@@ -30,7 +30,7 @@ void get_time() {
         //    time.hours, time.minutes, time.seconds,
         //    date.day, date.month, date.year, date.weekday);
     } else {
-        printf("RTC not working!\r\n");
+        printf("DB:\tRTC not working\r\n");
         date = {99, 99, 99, 99};
         time = {99, 99, 99};
     }
@@ -63,28 +63,28 @@ void init() {
 void open() {
     RTC::PCF8563_t::Date date;
     RTC::PCF8563_t::Time time;
-    char filename[50];
+    char filename[255];
 
     chunk_file_number++;
 
     if (RTC::PCF8563_t::ClockStatus::RUNNING == RTC::rtc.get_date_time(date, time)) {
-        snprintf(filename, 50, "gyro-%02u-%02u-%u-%02u-%02u-%02u-%u.txt", date.day, date.month, date.year, time.hours, time.minutes, time.seconds, chunk_file_number);
+        snprintf(filename, 255, "gyro-%02u-%02u-%u-%02u-%02u-%02u-%u.txt", date.day, date.month, date.year, time.hours, time.minutes, time.seconds, chunk_file_number);
     } else {
         InternalADC::select_channel(InternalADC::Input::ADC5);
         srand(InternalADC::read());
         InternalADC::select_channel(InternalADC::Input::ADC4);
-        snprintf(filename, 50, "gyro-rand-%u-%u.txt", rand(), chunk_file_number);
+        snprintf(filename, 255, "gyro-rand-%u-%u.txt", rand(), chunk_file_number);
     }
 
-    printf("Filename: %s\r\n", filename);
+    printf("DB:\tFilename: %s\r\n", filename);
 
-    printf("Check for card\r\n");
+    printf("DB:\tCheck for SD\r\n");
     if (f_open(fp, reinterpret_cast<const TCHAR*>(filename), FA_WRITE | FA_OPEN_ALWAYS) == FR_OK) {
-        printf("Card OK!\r\n");
+        printf("DB:\tSD OK!\r\n");
         led2.on();
         _delay_ms(100);
     } else {
-        printf("Card NOK!\r\n");
+        printf("DB:\tSD NOK!\r\n");
     }
 }
 
@@ -96,7 +96,7 @@ void save_on_card() {
     if (f_lseek(fp, f_size(fp)) == FR_OK) {
         f_write(fp, buffer, strlen(buffer), &bw);
 
-        printf("Written ");
+        printf("DB:\tWritten ");
 
         if (bw == strlen(buffer)) {
             printf("entire");
@@ -116,7 +116,7 @@ void save_on_card() {
     // if there are problems with SD card wait for 20 until WDT reset
     if (save_fails > 100) {
         save_fails = 0;
-        printf("Problem with SD, wait for reset...\r\n");
+        printf("DB:\tSD problem, about reset\r\n");
         for (uint16_t i = 0; i < 20; i++) {
             _delay_ms(1000);
         }
@@ -151,7 +151,7 @@ A3G4250D_t::GyroData A3G4250D_data_0;
 A3G4250D_t::GyroData A3G4250D_data_1;
 uint32_t count_data = 0;
 
-void configure() {
+void configure_operational() {
     A3G4250D_0.set_data_rate_bandwidth(A3G4250D_t::DataRateCutOff::DR_00_BW_00_100_Hz_CF_12_5);
     A3G4250D_0.set_power_mode(A3G4250D_t::PowerMode::ACTIVE, A3G4250D_t::AxisPowerMode::NORMAL, A3G4250D_t::AxisPowerMode::NORMAL, A3G4250D_t::AxisPowerMode::NORMAL);
     A3G4250D_0.data_output_path(A3G4250D_t::DataOutputPath::LP2_FILTERED);
@@ -172,10 +172,24 @@ void configure() {
 }
 
 void read() {
+    while (false == ITG3200_0.data_ready()) {
+        printf("DB:\tITG0 dnr\r\n");
+    }
     ITG3200_data_0 = ITG3200_0.get_raw_gyro();
+
+    while (false == ITG3200_1.data_ready()) {
+        printf("DB:\tITG1  dnr\r\n");
+    }
     ITG3200_data_1 = ITG3200_1.get_raw_gyro();
 
+    while (false == A3G4250D_0.data_ready()) {
+        printf("DB:\tA3G0 dnr\r\n");
+    }
     A3G4250D_data_0 = A3G4250D_0.get_raw_gyro();
+
+    while (false == A3G4250D_1.data_ready()) {
+        printf("DB:\tA3G1 dnr\r\n");
+    }
     A3G4250D_data_1 = A3G4250D_1.get_raw_gyro();
 }
 
@@ -217,12 +231,12 @@ void format_data() {
         Gyroscopes::A3G4250D_data_1.X_axis, Gyroscopes::A3G4250D_data_1.Y_axis, Gyroscopes::A3G4250D_data_1.Z_axis
     );
 }
-} // namespace GyroAppBackend
+} // namespace AppBackend
 
 DWORD get_fattime() {
-    GyroAppBackend::RTC::PCF8563_t::Date date;
-    GyroAppBackend::RTC::PCF8563_t::Time time;
-    GyroAppBackend::RTC::rtc.get_date_time(date, time);
+    AppBackend::RTC::PCF8563_t::Date date;
+    AppBackend::RTC::PCF8563_t::Time time;
+    AppBackend::RTC::rtc.get_date_time(date, time);
 
     return ((DWORD)(date.year - 1980) << 25)
     | ((DWORD)date.month << 21)
