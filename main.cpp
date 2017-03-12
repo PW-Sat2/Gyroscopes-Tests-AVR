@@ -79,7 +79,8 @@ int main() {
             AppBackend::format_data();
 
             AppBackend::SD::save_on_card();
-            
+
+            printf("GD;");
             Serial0.print_byte_array(reinterpret_cast<const uint8_t*>(SD::buffer), strlen(SD::buffer));
 
             led1.toggle();

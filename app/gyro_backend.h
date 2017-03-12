@@ -212,7 +212,7 @@ float measure() {
 
 void format_data() {
     snprintf(SD::buffer, SD::buff_len,
-        "%02u;%02u;%02u;%02u;%02u;%02u;%lu;%.2f;%u,%.2f;%d;%d;%d;%u,%.2f;%d;%d;%d;%u,%d;%d;%d;%d;%u,%d;%d;%d;%d;\r\n",
+        "%02u;%02u;%02u;%02u;%02u;%02u;%lu;%.2f;%u;%.2f;%d;%d;%d;%u;%.2f;%d;%d;%d;%u,%d;%d;%d;%d;%u;%d;%d;%d;%d;\r\n",
         RTC::date.day, RTC::date.month, RTC::date.year,
         RTC::time.hours, RTC::time.minutes, RTC::time.seconds, // time
         Gyroscopes::count_data++,
